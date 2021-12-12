@@ -10,9 +10,9 @@ const requestHandler = (req, res) => {
       '<body><form action="/message" method="POST"><input type="text" name="message"><button type="submit">Send</button></form></body>'
     );
     res.write("</html>");
-    return res.end();
-  //}
-  //Menghilangkan closing juga menghasilkan syntax error
+    res.end();
+    //Menghilangkan return pada skrip diatas dapat menyebabkan runtime error, karena header tetap dirubah walaupun pengiriman respon sudah selesai
+  }
   if (url === "/message" && method === "POST") {
     const body = [];
     req.on("data", (chunk) => {

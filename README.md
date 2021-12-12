@@ -63,3 +63,9 @@ Pesan errornya tidak kelihatan, karena berasal dari logic kodingan
 ### Intro
 
 Menemukan dan memperbaiki syntax error
+
+## 49. Finding & Fixing Runtime Errors
+
+### Intro
+
+Menemukan dan memperbaiki Runtime error
