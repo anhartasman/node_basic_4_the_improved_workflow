@@ -9,5 +9,18 @@
     "start-server": "node app.js"
   },
   "author": "Maximilian Schwarzmüller",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anhartasman/node_basic_4_the_improved_workflow.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "guide"
+  ],
+  "bugs": {
+    "url": "https://github.com/anhartasman/node_basic_4_the_improved_workflow/issues"
+  },
+  "homepage": "https://github.com/anhartasman/node_basic_4_the_improved_workflow#readme"
 }
