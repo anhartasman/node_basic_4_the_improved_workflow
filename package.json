@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/anhartasman/node_basic_4_the_improved_workflow/issues"
   },
-  "homepage": "https://github.com/anhartasman/node_basic_4_the_improved_workflow#readme"
+  "homepage": "https://github.com/anhartasman/node_basic_4_the_improved_workflow#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
