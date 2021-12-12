@@ -39,3 +39,21 @@ Menginstall package sebgai production dependency
 ### Intro
 
 Menggunakan nodemon untuk autorestart
+
+## 47. Understanding different Error Types
+
+### Intro
+
+Memahami perbedaan tipe error
+
+### Syntax Error
+
+Kesalahan pada sintaks, terdeteksi sebelum program dijalankan
+
+### Runtime Error
+
+Error saat program dijalankan
+
+### Logical Error
+
+Pesan errornya tidak kelihatan, karena berasal dari logic kodingan
