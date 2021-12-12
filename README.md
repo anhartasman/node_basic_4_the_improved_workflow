@@ -57,3 +57,9 @@ Error saat program dijalankan
 ### Logical Error
 
 Pesan errornya tidak kelihatan, karena berasal dari logic kodingan
+
+## 48. Finding & Fixing Syntax Errors
+
+### Intro
+
+Menemukan dan memperbaiki syntax error

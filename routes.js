@@ -11,7 +11,8 @@ const requestHandler = (req, res) => {
     );
     res.write("</html>");
     return res.end();
-  }
+  //}
+  //Menghilangkan closing juga menghasilkan syntax error
   if (url === "/message" && method === "POST") {
     const body = [];
     req.on("data", (chunk) => {
