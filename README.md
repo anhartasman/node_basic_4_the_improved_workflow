@@ -33,3 +33,9 @@ npm install nodemon --save
 ```
 
 Menginstall package sebgai production dependency
+
+## 45. Using Nodemon for Autorestarts
+
+### Intro
+
+Menggunakan nodemon untuk autorestart
