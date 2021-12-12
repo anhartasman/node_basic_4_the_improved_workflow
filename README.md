@@ -75,3 +75,17 @@ Menemukan dan memperbaiki Runtime error
 ### Intro
 
 Menemukan dan memperbaiki Logical error
+
+### 52. Restarting the Debugger Automatically After Editing our App
+
+### Intro
+
+Merestart debugger setelah edit file
+
+### Command
+
+```
+sudo npm install nodemon -g
+```
+
+Menginstall nodemon secara global
