@@ -10,8 +10,7 @@ const requestHandler = (req, res) => {
       '<body><form action="/message" method="POST"><input type="text" name="message"><button type="submit">Send</button></form></body>'
     );
     res.write("</html>");
-    res.end();
-    //Menghilangkan return pada skrip diatas dapat menyebabkan runtime error, karena header tetap dirubah walaupun pengiriman respon sudah selesai
+    return res.end();
   }
   if (url === "/message" && method === "POST") {
     const body = [];
@@ -21,7 +20,7 @@ const requestHandler = (req, res) => {
     });
     return req.on("end", () => {
       const parsedBody = Buffer.concat(body).toString();
-      const message = parsedBody.split("=")[1];
+      const message = parsedBody.split("=")[0]; // Merubah dari 1 ke 0 tidak menghasilkan syntax error atau runtime error, tapi akan menghasilkan logical error karena program tidak berjalan sesuai keinginan kita
       fs.writeFile("message.txt", message, (err) => {
         res.statusCode = 302;
         res.setHeader("Location", "/");

@@ -69,3 +69,9 @@ Menemukan dan memperbaiki syntax error
 ### Intro
 
 Menemukan dan memperbaiki Runtime error
+
+## 50. Finding & Fixing Logical Errors
+
+### Intro
+
+Menemukan dan memperbaiki Logical error
